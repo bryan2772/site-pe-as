@@ -1,0 +1,66 @@
+
+  /* começo do css do formulario */
+  form {
+    background-color: #b4b4b4;
+    border: 5px solid rgb(0, 0, 0);
+    border-style: dotted;
+    padding: 21px;
+    max-width: 600px;
+    margin-bottom: 100%;
+    margin-inline: auto;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c22020;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+   
+}
+/*fim do formulario*/
+
+
+/*inicio menu*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size:xx-large
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+/*fim do menu*/
+
+footer{
+  font-size:small;
+}

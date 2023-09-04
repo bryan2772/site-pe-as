@@ -1,0 +1,98 @@
+/* Estilize a imagem */
+body{
+  margin: auto;
+
+
+}
+*{
+  /*border: 3px dotted red;*/
+  box-sizing: border-box;
+
+
+
+}
+
+p#P{
+margin-left: 2.5%;
+font-size: larger;
+}
+/* Estilize a imagem */
+section#produtos{
+width: 100%; /* Defina a largura da div */
+justify-content: center;
+/*margin-inline:  10%;
+/*align-items: center;*/
+text-align: center;
+margin-bottom: 10%;
+}
+
+.image-container {
+width: 300px; /* Defina a largura da div */
+display: inline-block; /* Exiba as divs lado a lado */
+margin-right: 5px; /* Adicione um espaço entre as divs */ 
+background-color: #b4b4b4;
+color: #fff;
+border: 10px solid #fff;
+padding: 15px;
+margin-bottom: 30px;
+}
+
+/* Estilize as imagens */
+.image-container img {
+width: 100%; /* Faça a imagem preencher a div */
+height: auto; /* Mantenha a proporção da altura */
+}
+
+/*inicio menu*/
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size:xx-large
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/*fim do menu*/
+
+footer{
+font-size:small;
+}
+
+header{
+width: 100%;
+color: #fff;
+background-color: #333;
+display: flex;
+align-items: center;
+padding: 10px;
+}
+
+header img{
+width: 100px; /* Defina o tamanho desejado para a largura */
+
+}
+
+h1 {
+margin-left: 10px; /* ajuste a margem conforme necessário */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body style="background-color: #fbfbfb;">
+    <form method="post" action="mailto:ryanpassosmg@gmail.com">
+        <div class="container">
+            <h2><b> Formulario </b></h2>
+            <p> prencha nosso formulario para ficar por dentro das noticias do mundo automotivo</p>
+            <p><label for="cNome">Nome:</label>
+                <input type="text" name="txtnome" id="cnome" size="50" maxlength="45" placeholder="Digite seu nome completo">
+            </p>
+
+            <p><label for="cEmail">Email:</label>
+                <input type="text" name="txtemail" id="cemail" size="50" maxlength="45" placeholder="Digite seu email">
+            </p>
+
+            <p><label for="cSenha">Senha:</label>
+                <input type="password" name="txtsenha" id="cSenha" size="8" maxlength="8">
+            </p>
+
+            <p><label for="cSenha2">Confirme sua senha:</label>
+                <input type="password" name="txtsenha2" id="cSenha2" size="8" maxlength="8">
+            </p>
+
+            <fieldset id="sexo" style="width: 20%">
+                <legend>Sexo:</legend>
+                <input type="radio" name="txtsexo" id="cMasc">
+                <label for="cMasc">Masculino</label>
+                <input type="radio" name="txtsexo" id="cFem">
+                <label for="cFem">Feminino</label>
+                <input type="radio" name="txtsexo" id="cOut">
+                <label for="cOut">Outros</label>
+            </fieldset>
+
+            <p>Deixe uma mensagem de carinho para a empresa <textarea cols="45" rows="5"></textarea></p>
+
+            <p>
+                <input type="checkbox" name="txtRecEmail" id="cRecEmail" checked />
+                Gostaria de receber email sobre as noticias
+            </p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="pecas.html">Peças</a></li>
+            <li><a href="imagens.html">Imagens</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="formulario.html">Cadastro</a></li>
+        </ul>
+        <footer>
+            <p>Todos os direitos reservados &copy; 2023 Bryan Henrique</p>
+            <!-- Adicione informações de contato, links de redes sociais, etc. -->
+        </footer>
+    </nav>
+
+</body>
+
+</html>

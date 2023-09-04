@@ -1,0 +1,104 @@
+body{
+    margin: auto;
+}
+*{
+  /*border: 3px dotted red;*/
+  box-sizing: border-box;
+
+
+
+}
+div{
+  margin-inline: 20%;
+  background-color: #b4b4b4;border: 10px solid #fff;
+  margin-bottom: 15%;
+}
+p#titulu{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 200%;
+}
+
+div p{
+  /*width: 300px; /* Defina a largura da div */
+  /*margin-right: 5px; /* Adicione um espaço entre as divs */ 
+  color: #fff;
+  font-size:170%;
+  padding: 15px;
+  /*margin-bottom: 30px;*/
+}
+/*inicio menu*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size:xx-large
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+/*fim do menu*/
+
+footer{
+  font-size:small;
+  width: 100vw;
+}
+
+header{
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+header img{
+  width: 100px; /* Defina o tamanho desejado para a largura */
+  
+}
+
+h1 {
+  margin-left: 10px; /* ajuste a margem conforme necessário */
+}
+/*
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* ajuste o tamanho conforme necessário 
+}*/
+
+
+
+
+nav#top{
+  width: 100vw;
+  color: #fff;
+  padding: 10px;
+  position: auto;
+  left: 0;
+  background-color: #333;
+}
